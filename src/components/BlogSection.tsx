@@ -198,30 +198,6 @@ const BlogSection = () => {
             ))}
           </div>
         </div>
-
-        {/* Newsletter Signup */}
-        <div className="mt-16 text-center">
-          <Card className="bg-gradient-primary border-0 shadow-primary max-w-2xl mx-auto">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold text-white mb-4">
-                Stay Updated with Market Insights
-              </h3>
-              <p className="text-white/90 mb-6">
-                Get weekly analysis, trading tips, and market insights delivered to your inbox.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <input
-                  type="email"
-                  placeholder="Enter your email address"
-                  className="flex-1 px-4 py-3 rounded-lg border-0 bg-white/10 text-white placeholder:text-white/70 backdrop-blur-sm"
-                />
-                <Button variant="accent" size="lg">
-                  Subscribe
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
       </div>
     </section>
   );

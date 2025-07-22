@@ -80,20 +80,15 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Newsletter */}
+          {/* Resources */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Stay Updated</h3>
-            <p className="text-white/80 mb-4">
-              Get weekly market insights and trading tips delivered to your inbox.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-2">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="flex-1 px-3 py-2 bg-white/10 border border-white/20 rounded-md text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-accent"
-              />
-              <Button variant="accent" size="sm">
-                Subscribe
+            <h3 className="text-lg font-semibold mb-4">Resources</h3>
+            <div className="space-y-2">
+              <p className="text-white/80">
+                Trading guides, risk management tools, and market analysis resources.
+              </p>
+              <Button variant="accent" size="sm" className="mt-4">
+                Download Free Resources
               </Button>
             </div>
           </div>
